@@ -297,6 +297,7 @@ GameObject:
   - component: {fileID: 727104046}
   - component: {fileID: 727104049}
   - component: {fileID: 727104050}
+  - component: {fileID: 727104051}
   m_Layer: 11
   m_Name: Adventurer
   m_TagString: Player
@@ -416,13 +417,26 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_AngularDrag: 0
+  m_GravityScale: 3.5
+  m_Material: {fileID: 6200000, guid: 70934c7981ab2a44d89187e240062e4c, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &727104051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 727104045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76b0a4f56bbdd7d4c9351623c71187e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horizontalSpeed: 5
+  jumpSpeed: 600
 --- !u!1 &1396683309
 GameObject:
   m_ObjectHideFlags: 0
